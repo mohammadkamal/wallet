@@ -5,7 +5,7 @@ struct walletApp: App {
 
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            AppTabsView()
         }
     }
 }

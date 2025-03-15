@@ -47,7 +47,7 @@ struct TransactionTile: View {
             }
             Spacer()
             TransactionAmount(value: value, type: type)
-        }.padding()
+        }
     }
 }
 
