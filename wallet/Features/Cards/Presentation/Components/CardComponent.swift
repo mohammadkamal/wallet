@@ -4,10 +4,10 @@ struct CardComponent: View {
     let cardNumber: String
     let bankName: String?
     let expirationDate: String
-    let cvv: String
+    let cvv: String?
     let cardHolder: String
     
-    init(cardNumber: String, expirationDate: String, cvv: String, cardHolder: String, bankName: String? = nil) {
+    init(cardNumber: String, expirationDate: String, cvv: String? = nil, cardHolder: String, bankName: String? = nil) {
         self.cardNumber = cardNumber
         self.expirationDate = expirationDate
         self.cvv = cvv
@@ -47,6 +47,7 @@ struct CardComponent: View {
                     .font(.title3)
                     .fontWeight(.bold)
                 Spacer()
+                Helper.checkCardType(cardNumber).icon
             }.padding()
         }
         .background(Color.black)
