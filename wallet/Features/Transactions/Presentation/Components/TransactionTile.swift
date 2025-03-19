@@ -1,13 +1,5 @@
 import SwiftUI
 
-enum TransactionType {
-    case income
-    case outgoing
-    case expense
-    case returnCash
-    case cashback
-}
-
 struct TransactionTile: View {
     let image: String? = nil
     let label: String?
