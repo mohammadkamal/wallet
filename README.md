@@ -11,3 +11,5 @@ Upcoming Features:
 * Mock send balance
 * Mock e-services
 * Mock analytics
+
+**DISCLAIMER**: All assets are for showcase purposes only and not intened to be reused without their respective creators' permission.
